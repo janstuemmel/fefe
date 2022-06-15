@@ -1054,6 +1054,12 @@ body > ul > li {
   padding: 1em;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 24px 0;
+  }
+}
+
 body > h2 {
   text-transform: uppercase;
   text-align: center;
@@ -1078,6 +1084,7 @@ body > b, body > p, body > div {
   font-size: 0.9em;
   text-align: center !important;
   display: block;
+  padding: 0 10px;
 }
 
 body a:visited {
